@@ -19,6 +19,11 @@ namespace UploadProgress.Controllers
             return View();
         }
 
+        public ActionResult UploadJqueryAjax()
+        {
+            return View();
+        }
+
         /* IMPORTANTE SETAR A CONFIG ABAIXO NO WEB.CONFIG PARA QUE POSSA FAZER O UPLOAD
          * DE ARQUIVOS GRANDES NO IIS 7
       
